@@ -2,14 +2,14 @@
 
 User Display
 ```bash
-┌╼[Islc12@my-workstation]-[~/Documents]
-└╼[jobs:(0) exit:(0)]-$
+┌─╼[Islc12@my-workstation]-[~/Documents]
+└───╼[jobs:(0) exit:(0)]-$
 ```
 
 Root Display
 ```bash
-┌╼[root@my-workstation]-[/var/log]
-└╼[jobs:(0) exit:(0)]-\
+┌─╼[root@my-workstation]-[/var/log]
+└───╼[jobs:(0) exit:(0)]-#
 ```
 
 ### Jobs display shows the number of backgrounded jobs.
