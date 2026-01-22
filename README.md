@@ -1,4 +1,9 @@
 ## Colorless preview of user and super user bash prompts.
+### Custom coloring includes:
+  ### username and hostname - olive drab green
+  ### jobs, exit prompts, and current working directory - amber
+  ### job number and exit code - red
+  ### blue accent colors
 
 User Display
 ```bash
@@ -18,5 +23,7 @@ Root Display
 
 ## Installation
 ```bash
-reserved
+git clone https://github.com/Islc12/bash-ps1.git
+cat bash-ps1/custom_ps1 | sudo tee -a ~/.bashrc /root/.bashrc
+source ~/.bashrc
 ```
